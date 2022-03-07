@@ -5,11 +5,11 @@ Homework and Project files
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+![Azure and elk stack diagram](https://github.com/dreadglitter/GitHub-Fundamentals-and-Project-13-Submission/blob/a69be4c468917f979fc7b44341c38c652878ac80/Images/azure_network_elk-.drawio.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the install-elk.yml file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+![Filebeat playbook](https://github.com/dreadglitter/GitHub-Fundamentals-and-Project-13-Submission/blob/a69be4c468917f979fc7b44341c38c652878ac80/Images/filebeat_playbook.PNG)
 
 This document contains the following details:
 - Description of the Topologu
@@ -32,7 +32,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - Instaled metricbeat to record metric's from each VM in the network.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
@@ -76,7 +76,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![docker ps on elk](https://github.com/dreadglitter/GitHub-Fundamentals-and-Project-13-Submission/blob/6afa788d07d3d68dc8e0b36425bdb188593d8198/Images/docker%20ps%20on%20elk.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -101,4 +101,4 @@ SSH into the control node and follow the steps below:
 
 
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+
